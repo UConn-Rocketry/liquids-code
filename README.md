@@ -1,13 +1,7 @@
 # liquids-code
-This will be the GUI for the ground control station, which follows the following design;
 
-- Ground control computer interfaces with Arduino
-- Arduino interfaces with the following components;
-  - 1x Spark Plug
-  - 2x Flow Meters(?)
-  - 2x Relays, which interface in total with;
-    - 5x valves
-  - 4x Pressure Transducers
+This is a port of the old Liquid Rocketry code.
 
-Here's a diagram of these components;
-![Ground control diagram](diagram.jpeg "Ground control diagram")
+"hotfire.ino" was the Arduino code that ran on the Arduino Uno.
+
+"ground-control" was the Python-based GUI for ground control and sending commands and receiving sensor data (a fork of the old PL ground station code).
